@@ -91,15 +91,52 @@ Unordered List (Bullets)
   </tr>
 </table>
 ```
+## Attributes
+### Add information to elements
+
+- **href**: URL of the link
+- **target**: "_blank": Opens the link in a new tab
+
+```html
+<a href="https://example.com" target="_blank">Visit Example</a>
+```
+## Forms
+Used for user input
+```html
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" />
+  <button type="submit">Submit</button>
+</form>
+```
+
+## Semantic Tags
+For better structure:
+- **header**: Top section or navigation
+- **nav**: Navigation links
+- **section**: Groups content
+- **article**: Standalone content
+- **footer**: Bottom section
+
+## Styling and Scripts
+- **Inline CSS**
+```html
+<p style="color: blue;">This is a blue paragraph.</p>
+```
+
+- **External CSS**
+```html
+<link rel="stylesheet" href="styles.css" />
+```
+
+- **JavaScript**
+```html
+<script>
+  alert("Hello, world!");
+</script>
+```
 
 
-
-
-
-
-
-
-
-
-
-
+<script>
+  alert("Hello, world!");
+</script>
